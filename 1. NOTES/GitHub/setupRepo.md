@@ -7,6 +7,7 @@
 - get all branches fro repo: `git fetch "alias"`
 - merge remote branch with current one: `git merge "alias" "branch"`
 - transmit information: `git push "alias" "branch"`
+- set pushable branch: `git push --set-upstream "alias" "branch"`
 - NOW U CAN USE THE REPO
 
 
