@@ -9,5 +9,3 @@
 - transmit information: `git push "alias" "branch"`
 - set pushable branch: `git push --set-upstream "alias" "branch"`
 - NOW U CAN USE THE REPO
-
-
