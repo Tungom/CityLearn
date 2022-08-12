@@ -90,7 +90,7 @@ class MARLISA:
             self.encoder[uid] = []
             state_n = 0
             for s_name, s in self.buildings_states_actions[uid]['states'].items():
-                if not s:
+                if not s: # if this feature is false
                     self.encoder[uid].append(0)
                 elif s_name in ["month", "hour"]:
                     self.encoder[uid].append(periodic_normalization(self.observation_spaces[uid].high[state_n]))
